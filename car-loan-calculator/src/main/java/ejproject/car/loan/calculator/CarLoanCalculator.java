@@ -9,7 +9,11 @@ public class CarLoanCalculator {
         System.out.print("Car Make & Model: ");
         String car = carMakeModel.nextLine();
         
+        Scanner carPrice = new Scanner(System.in);
+        System.out.print("Price: Php ");
+        double price = carPrice.nextDouble();
         
+                
         
     }
 }
