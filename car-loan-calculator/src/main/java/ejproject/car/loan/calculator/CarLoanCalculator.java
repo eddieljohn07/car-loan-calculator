@@ -18,6 +18,7 @@ public class CarLoanCalculator {
         double dp = downPayment.nextDouble();
         
         Scanner paymentTerms = new Scanner(System.in);
+        System.out.print("Payment Terms in Months (12, 24, 36, 48, 60): ");
         
         
     }
