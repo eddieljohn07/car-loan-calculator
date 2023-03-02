@@ -16,7 +16,9 @@ public class CarLoanCalculator {
         Scanner downPayment = new Scanner(System.in);
         System.out.print("Price: Php ");
         double dp = downPayment.nextDouble();
-                
+        
+        Scanner paymentTerms = new Scanner(System.in);
+        
         
     }
 }
