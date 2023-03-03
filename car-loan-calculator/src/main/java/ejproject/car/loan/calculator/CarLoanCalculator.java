@@ -22,5 +22,6 @@ public class CarLoanCalculator {
         int terms = paymentTerms.nextIntI();
         
         double calculation = ((price-dp) / terms);
+        double secondCalculation = ((price - dp) / terms);
     }
 }
