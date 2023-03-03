@@ -23,5 +23,8 @@ public class CarLoanCalculator {
         
         double calculation = ((price - dp) / terms);
         double secondCalculation = ((price - dp) / terms);
+
+        if (terms == 12) {
+            System.out.println((("Php ) + ((calculation * 0.515) + secondCalculation)) + ((" is your monthly amortization for 12 months or 1 year for your ") + car));
     }
 }
