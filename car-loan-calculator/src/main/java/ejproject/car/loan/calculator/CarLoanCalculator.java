@@ -40,7 +40,7 @@ public class CarLoanCalculator {
             default:
                 break;
             case 60:
-                System.out.println((("Php ") + ((calculation * 0.35) + secondCalculation)) + ((" is your monthly amortization for 36 months or 3 years for your ") + car));
+                System.out.println((("Php ") + ((calculation * 0.35) + secondCalculation)) + ((" is your monthly amortization for 60 months or 5 years for your ") + car));
         }
    }
 }
