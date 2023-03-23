@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class CarLoanCalculator {
 
     public static void main(String[] args) {
+        Scanner stringInput = new Scanner(System.in);
         System.out.println("GET THE COMPUTATION OF YOUR DREAM CAR LOAN!");
         Scanner carMakeModel = new Scanner(System.in);
         System.out.print("Car Make & Model: ");
