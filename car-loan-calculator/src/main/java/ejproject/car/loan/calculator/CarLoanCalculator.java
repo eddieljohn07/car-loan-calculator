@@ -7,27 +7,18 @@ public class CarLoanCalculator {
     public static void main(String[] args) {
         Scanner stringInput = new Scanner(System.in);
         Scanner doubleInput = new Scanner(System.in);
-        Scanner intInput = new Scanner(System.in);
-        System.out.println("GET THE COMPUTATION OF YOUR DREAM CAR LOAN!");
-        
+        Scanner intInput = new Scanner(System.in);       
+        System.out.println("GET THE COMPUTATION OF YOUR DREAM CAR LOAN!");       
         System.out.print("Car Make & Model: ");
-        String car = stringInput.nextLine();
-        
-       
+        String car = stringInput.nextLine();      
         System.out.print("Price: Php ");
         double price = doubleInput.nextDouble();
-        
-     
         System.out.print("DownPayment: Php ");
         double dp = doubleInput.nextDouble();
-        
-        
         System.out.print("Payment Terms in Months (12, 24, 36, 48, 60): ");
         int terms = intInput.nextInt();
-        
         double calculation = ((price - dp) / terms);
         double secondCalculation = ((price - dp) / terms);
-
         switch (terms) {
             case 12:
                 System.out.println((("Php ") + ((calculation * 0.515) + secondCalculation)) + ((" is your monthly amortization for 12 months or 1 year for your ") + car));
