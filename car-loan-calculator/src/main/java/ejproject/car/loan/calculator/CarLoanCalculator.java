@@ -23,7 +23,7 @@ public class CarLoanCalculator {
         
         
         System.out.print("Payment Terms in Months (12, 24, 36, 48, 60): ");
-        int terms = paymentTerms.nextInt();
+        int terms = intInput.nextInt();
         
         double calculation = ((price - dp) / terms);
         double secondCalculation = ((price - dp) / terms);
