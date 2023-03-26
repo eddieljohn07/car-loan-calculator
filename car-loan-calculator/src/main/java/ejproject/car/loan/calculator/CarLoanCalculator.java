@@ -11,7 +11,7 @@ public class CarLoanCalculator {
         System.out.println("GET THE COMPUTATION OF YOUR DREAM CAR LOAN!");
         Scanner carMakeModel = new Scanner(System.in);
         System.out.print("Car Make & Model: ");
-        String car = carMakeModel.nextLine();
+        String car = stringInput.nextLine();
         
         Scanner carPrice = new Scanner(System.in);
         System.out.print("Price: Php ");
