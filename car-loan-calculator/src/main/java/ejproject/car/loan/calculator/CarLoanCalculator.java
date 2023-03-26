@@ -9,13 +9,13 @@ public class CarLoanCalculator {
         Scanner doubleInput = new Scanner(System.in);
         Scanner intInput = new Scanner(System.in);
         System.out.println("GET THE COMPUTATION OF YOUR DREAM CAR LOAN!");
-        Scanner carMakeModel = new Scanner(System.in);
+        
         System.out.print("Car Make & Model: ");
         String car = stringInput.nextLine();
         
         Scanner carPrice = new Scanner(System.in);
         System.out.print("Price: Php ");
-        double price = carPrice.nextDouble();
+        double price = doubleInput.nextDouble();
         
         Scanner downPayment = new Scanner(System.in);
         System.out.print("DownPayment: Php ");
